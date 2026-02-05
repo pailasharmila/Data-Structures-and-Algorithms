@@ -1,1 +1,7 @@
 https://medium.com/@abhishekjainindore24/the-concept-of-pointers-in-c-and-c-and-why-python-doesnt-have-them-9ade1875d9ed
+
+
+### GARBAGE COLLECTION:
+Garbage collection (GC) is a process of identifying and reclaiming the memory used by objects that are no longer reachable or referenced by the program. In other words, GC cleans up the memory that is not being used anymore, and then makes it available for new objects.
+Garbage collection is different from manual memory management, where the programmer has to explicitly allocate and deallocate memory for each object. As much as manual memory management can be more efficient and precise, it requires more effort and attention from the programmer. Again, it often introduces errors like memory leaks (when memory is not freed after use) and dangling pointers (when a pointer points to an invalid or freed memory location).
+Garbage collection, on the other hand, simplifies the programming task by automating the memory management. However, it also introduces some overhead and complexity. The interpreter has to periodically run the GC algorithm and pause the execution of the program. Moreover, GC does not guarantee that all unused memory will be reclaimed immediately or at all, as some objects may be kept alive by circular references or external references.
